@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf Haiba Turmudzi - Portfolio</title>
+    <meta name="description" content="Portofolio Yusuf Haiba Turmudzi, Mahasiswa Informatika dan Pengajar Pondok Pesantren.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Yusuf.<span>Dev</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">Tentang</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Project</a></li>
+                    <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+                    <li><a href="#certificates" class="nav-link">Sertifikat</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-padding">
+        <div class="container hero-container">
+            <div class="hero-content reveal-left">
+                <p class="greeting">Halo, Selamat Datang! Saya</p>
+                <h1 class="hero-name">Yusuf Haiba <span>Turmudzi</span></h1>
+                <h2 class="hero-title">Mahasiswa Informatika & <span>Pengajar Santri</span></h2>
+                <p class="hero-desc">
+                    Saya adalah mahasiswa Informatika di STIKOM El Rahma Bogor dan alumni santri yang aktif mengabdi di pondok pesantren. Saya memiliki passion yang mendalam di bidang teknologi, pemrograman, dan pengembangan website modern.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Lihat Project</a>
+                    <a href="https://drive.google.com/file/d/1oscBYMBWkTesKmO5nQa9Ka2q8tlq1pFK/view?usp=drive_link" target="_blank" class="btn btn-outline">Download CV</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-image reveal-right">
+                <div class="image-wrapper">
+                    <img src="images/yusuf.jpeg" alt="Yusuf Haiba Turmudzi" id="profile-img">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Saya -->
+    <section id="about" class="about section-padding bg-light">
+        <div class="container">
+            <div class="section-title reveal-up">
+                <h2>Tentang <span>Saya</span></h2>
+                <p>Kenali saya lebih dekat</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text reveal-left">
+                    <h3>Biodata & Perjalanan</h3>
+                    <p>Saya adalah seorang individu yang antusias dalam menggabungkan nilai-nilai kepesantrenan dengan kemajuan teknologi. Saat ini, saya sedang menempuh pendidikan sebagai mahasiswa jurusan <strong>Informatika di STIKOM El Rahma Bogor</strong>.</p>
+                    <p>Sebagai alumni santri, saya tetap aktif mendedikasikan diri untuk <strong>mengabdi dan mengajar di pondok pesantren</strong>, berbagi ilmu bahasa Arab, serta ilmu-ilmu agama.</p>
+                    <p>Di dunia teknologi, minat utama saya berada pada <strong>pemrograman dan pengembangan website</strong>. Saya terus belajar dan mengembangkan skill untuk menciptakan solusi digital yang bermanfaat bagi masyarakat.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Pendidikan</h4>
+                                <span>STIKOM El Rahma Bogor (Informatika)</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-mosque"></i>
+                            <div>
+                                <h4>Pengabdian</h4>
+                                <span>Pengajar di Pondok Pesantren</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <div>
+                                <h4>Minat</h4>
+                                <span>Web Development & Teknologi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats reveal-right">
+                    <div class="stat-card">
+                        <h3>3+</h3>
+                        <p>Tahun Pengalaman Mengajar</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>10+</h3>
+                        <p>Project Selesai</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>100%</h3>
+                        <p>Dedikasi Belajar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <div class="section-title reveal-up">
+                <h2>Keahlian & <span>Skills</span></h2>
+                <p>Teknologi dan kemampuan yang saya kuasai</p>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5" style="color: #e34f26;"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>HTML</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                        <span class="percentage">80%</span>
+                    </div>
+                </div>
+                <!-- Skill 2 -->
+                <div class="skill-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt" style="color: #1572b6;"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>CSS</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                        <span class="percentage">80%</span>
+                    </div>
+                </div>
+                <!-- Skill 3 -->
+                <div class="skill-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="skill-icon">
+                        <i class="fab fa-js" style="color: #f7df1e;"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>JavaScript</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                        <span class="percentage">80%</span>
+                    </div>
+                </div>
+                <!-- Skill 4 -->
+                <div class="skill-card reveal-up" style="transition-delay: 0.3s;">
+                    <div class="skill-icon">
+                        <i class="fas fa-pen-nib" style="color: #ff0055;"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>Creative Editing</h3>
+                        <p class="skill-desc">(Canva, CapCut, Figma)</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                        <span class="percentage">85%</span>
+                    </div>
+                </div>
+                <!-- Skill 5 -->
+                <div class="skill-card reveal-up" style="transition-delay: 0.4s;">
+                    <div class="skill-icon">
+                        <i class="fas fa-book-quran" style="color: #059669;"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>Bahasa Arab</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%;"></div>
+                        </div>
+                        <span class="percentage">95%</span>
+                    </div>
+                </div>
+                <!-- Skill 6 -->
+                <div class="skill-card reveal-up" style="transition-delay: 0.5s;">
+                    <div class="skill-icon">
+                        <i class="fas fa-chalkboard-user" style="color: #8b5cf6;"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>Mengajar</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                        <span class="percentage">90%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects section-padding bg-light">
+        <div class="container">
+            <div class="section-title reveal-up">
+                <h2>Project <span>Terbaru</span></h2>
+                <p>Beberapa karya yang telah saya buat</p>
+            </div>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal-up">
+                    <div class="project-img">
+                        <img src="images/to-do-list.png" alt="To Do List">
+                        <div class="project-links">
+                            <a href="https://yusufattrumudzi-creator.github.io/project1/" class="btn-icon"><i class="fas fa-link"></i></a>
+                            <a href="https://yusufattrumudzi-creator.github.io/project1/" class="btn-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <h3>To Do list</h3>
+                        <p>To-do list (daftar tugas) adalah alat manajemen waktu yang digunakan untuk mencatat semua hal yang perlu Anda lakukan.</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="project-img">
+                        <img src="images/pendaftaran.png" alt="Website pendaftaran">
+                        <div class="project-links">
+                            <a href=" https://yusufattrumudzi-creator.github.io/projrect2/" class="btn-icon"><i class="fas fa-link"></i></a>
+                            <a href=" https://yusufattrumudzi-creator.github.io/projrect2/" class="btn-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <h3>Web pendaftaran sederhna</h3>
+                        <p>Web pendaftaran adalah platform digital yang berfungsi untuk mengumpulkan data calon peserta secara online untuk suatu kegiatan, institusi, atau layanan.</p>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="experience section-padding">
+        <div class="container">
+            <div class="section-title reveal-up">
+                <h2>Pengalaman <span>Saya</span></h2>
+                <p>Perjalanan karir dan aktivitas</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Pengabdian Sebagai Santri</h3>
+                        <span class="timeline-date">2014-2023</span>
+                        <p>Menimba ilmu di pondok pesantren, mempelajari berbagai kitab kuning, manajemen waktu, dan kedisiplinan yang menjadi bekal hidup</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Musyrif kamar Dan Mengajar di Pondok Pesantren Al Muchtar Bekasi</h3>
+                        <span class="timeline-date">2023 - 2025</span>
+                        <p>Mengabdi sebagai tenaga pengajar di pondok pesantren, mendidik santri dalam ilmu agama dan bahasa Arab, serta membentuk karakter Islami.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Musyrif Kamar Dan Mengajar di Pondok Pesantren Al Ihsan Baron Bogor</h3>
+                        <span class="timeline-date">2025 - Sekarang</span>
+                        <p>Mengabdi sebagai tenaga pengajar di pondok pesantren, mendidik santri dalam ilmu agama dan bahasa Arab, serta membentuk karakter Islami.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="certificates" class="certificates section-padding bg-light">
+    <div class="container">
+        <div class="section-title reveal-up">
+            <h2>Sertifikat</h2>
+            <p>Bukti penghargaan</p>
+        </div>
+        <div class="cert-grid">
+            
+            <div class="cert-card reveal-up" tabindex="0">
+                <div class="cert-img-wrapper">
+                    <img src="images/sertifikat-1.jpeg" alt="Sertifikat Liqo syawal" id="cert1-img" class="cert-img">
+                </div>
+                <div class="cert-info">
+                    <h3>Sertifikat Liqo Syawal</h3>
+                    <p>Pertemuan Mahasiswa dan para Dosen di bulan Syawal. </p>
+                    <a href="dokumen/Liqo Syawal.jpeg" target="_blank" class="btn-view-pdf"><h4>Lihat PDF Selengkapnya</h4></a>
+                </div>
+            </div>
+
+            <div class="cert-card reveal-up" style="transition-delay: 0.1s;" tabindex="0">
+                <div class="cert-img-wrapper">
+                    <img src="images/sertifikat-2.jpeg" alt="Tabligh Akbar" id="cert2-img" class="cert-img">
+                </div>
+                <div class="cert-info">
+                    <h3>Tabligh Akbar Maulid Nabi SAW 1447 H</h3>
+                    <p>Berkumpul dengan orang-orang sholeh dan mendengarkan ceramah dari salah satu Habaib.</p>
+                    <a href="dokumen/Tabligh Akbar.jpeg" target="_blank" class="btn-view-pdf"><h4>Lihat PDF Selengkapnya</h4></a>
+                </div>
+            </div>
+
+              <div class="cert-card reveal-up" style="transition-delay: 0.1s;" tabindex="0">
+                <div class="cert-img-wrapper">
+                    <img src="images/serifikat-3.jpeg" alt="Dauroh Fiqih" id="cert2-img" class="cert-img">
+                </div>
+                <div class="cert-info">
+                    <h3>Ma'had Aly 1 (Dauroh Fiqih)</h3>
+                    <p>Dauroh fiqih adalah program belajar yang intensif untuk memperdalam pemahaman tentang tata cara ibadah atau aturan praktis kehidupan sehari-hari berdasarkan hukum Islam.</p>
+                    <a href="dokumen/Sertifikat Dauroh Fiqih.jpeg" target="_blank" class="btn-view-pdf"><h4>Lihat PDF Selengkapnya</h4></a>
+                </div>
+            </div>
+
+              <div class="cert-card reveal-up" style="transition-delay: 0.1s;" tabindex="0">
+                <div class="cert-img-wrapper">
+                    <img src="images/sertifikat-4.jpeg" alt="Dauroh Hadis" id="cert2-img" class="cert-img">
+                </div>
+                <div class="cert-info">
+                    <h3>Ma'had Aly 2 (Dauroh Hadis)</h3>
+                    <p>Dauroh hadits adalah program belajar yang intensif untuk membaca, menghafal, atau membedah kumpulan hadits Nabi SAW  guna memahami panduan hidup yang diajarkan oleh Rasulullah SAW.</p>
+                    <a href="dokumen/Sertifikat Dauroh Hadis.jpeg" target="_blank" class="btn-view-pdf"><h4>Lihat PDF Selengkapnya</h4></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-title reveal-up">
+                <h2>Hubungi <span>Saya</span></h2>
+                <p>Mau kolaborasi bareng atau sekedar ngopi virtual? jangan sungkan untuk mengirim pesan,ya!"</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info reveal-left">
+                    <a href="mailto:yusufhaibaatturmdzi">
+                        <div class="icon-box">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>yusufhaibaatturmudzi@gmail.com</p>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/qr/5RJZRWXBYFSMO1">
+                        <div class="icon-box">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>+62 896-1277-6220</p>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/yusufatturmudzi?igsh=bDYwdjYzYTRwdzN3">
+                        <div class="icon-box">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div>
+                            <h3>Instagram</h3>
+                            <p>Yusuf At Turmudzi</p>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yusuf-haiba-1b2223382?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+                        <div class="icon-box">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>Yusuf Haiba Turmudzi</p>
+                        </div>
+                    </a>
+                </div>
+                <form class="contact-form reveal-right" onsubmit="event.preventDefault(); alert('Pesan berhasil dikirim!');">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subjek" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Pesan Anda" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Yusuf Haiba Turmudzi.Hak Cipta Dilindungi Hak Undang-Undang.</p>
+            <p>Dirancang dengan menggunakan HTNL5,Vanilla CSS3,dan JavaScript</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/yusufatturmudzi?igsh=bDYwdjYzYTRwdzN3"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/yusuf-haiba-1b2223382?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/yusufattrumudzi-creator"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
