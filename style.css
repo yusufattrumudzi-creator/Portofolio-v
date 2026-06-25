@@ -164,6 +164,7 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--secondary-color);
+  padding: 8px; /* Tambahan padding agar lebih mudah ditekan di HP */
 }
 
 
@@ -965,7 +966,7 @@ footer .social-links a:hover {
   .nav-menu {
     position: absolute;
     top: 80px;
-    left: -100%;
+    left: 0;
     width: 100%;
     height: calc(100vh - 80px);
     background-color: var(--bg-white);
@@ -974,11 +975,29 @@ footer .social-links a:hover {
     padding: 40px 0;
     transition: var(--transition-smooth);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100%);
+    overflow-y: auto;
   }
 
   /* Tambahkan class ini via JavaScript saat menu toggle di-klik */
   .nav-menu.active {
-    left: 0;
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-link {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1.1rem;
   }
 
   .cert-grid {
